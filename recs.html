@@ -1,0 +1,98 @@
+<!--
+    this page is a place for users to get some book recommendations as well as an area
+    the user can provide their favorite books.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendations</title>
+     <!--Here is the code to grab from the CSS style sheet.-->
+     <link rel="style sheet" href="style.css" />
+</head>
+<body>
+
+    <!--Header for the page and another image to decorate.-->
+     <img src="https://images.unsplash.com/photo-1697029749544-ffa7f15f9dd0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhZGluZyUyMGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D" width="500" alt="Picture of book"><br>
+     <h1>Book Recommendations By Genre</h1>
+  
+     <!----MAIN------>
+    <main>
+        <!--paragrah explaining the page contents, including a <br> and <hr>-->
+        <p>There are many different book genres out there for whatever your mood may be.
+            Since I am a fiction fan, I will be giving recommendations for this specifically, based on genre.<br>
+            <hr>
+        </p>
+
+        <!--Here is a table with book recs for different genres, including a universal HTML symbol.-->
+        <section>
+        <table>
+            <tr>
+                <th>Sci-Fi</th>
+                <th>Romance</th>
+                <th>Thriller</th>
+                <th>Fantasy</th>
+                <th>Horror</th>
+            </tr>
+            <tr>
+                 <td>&#9829; Dune</td>
+                <td>&#9829; Book Lovers</td>
+                <td>&#9829; The Guest List</td>
+                <td>&#9829; Fourth Wing</td>
+                <td>&#9829; The Shining</td>
+            </tr>
+            <tr>
+                <td>&#9829; Dark Matter</td>
+                <td>&#9829; Yours Truly</td>
+                <td>&#9829; Never Lie</td>
+                <td>&#9829; The Night Circus</td>
+                <td>&#9829; It</td>
+            </tr>
+            <tr>
+                <td>&#9829; The Martian</td>
+                <td>&#9829; Love and Other Words</td>
+                <td>&#9829; Mexican Gothic</td>
+                <td>&#9829; Lore</td>
+                <td>&#9829; Out There Screaming</td>
+            </tr>
+            <tr>
+                <td>&#9829; Ready Player One</td>
+                <td>&#9829; The Ex Hex</td>
+                <td>&#9829; The Couple Next Door</td>
+                <td>&#9829; Belladonna</td>
+                <td>&#9829; Misery</td>
+            </tr>
+        </table>
+        </section>
+        <hr>
+
+        <!--Next is an area for the user to enter some information about themselves using a form and different inputs.-->
+        <section>
+        <h3>Book Information About You:</h3>
+        <img src="https://www.freelancerfaqs.com/wp-content/uploads/2022/03/fb-get-paid-to-read-books.jpg" width="800" alt="Picture of girl with book"><br>
+        <form>
+            1. What is your favorite book?<br>
+            <input type="text" name="favoriteBook" placeholder="Book Title"><br>
+            2. What is your favorite genre of fiction?<br>
+            <input type="radio" name="genre" value="Sci-Fi"> Sci-Fi<br>
+            <input type="radio" name="genre" value="Romance">Romance<br>
+            <input type="radio" name="genre" value="Thriller">Thriller<br>
+            <input type="radio" name="genre" value="Fantasy">Fantasy<br>
+            <input type="radio" name="genre" value="Horror">Horror<br>
+            <input type="radio" name="genre" value="Other">Other<br>
+            <input type="submit" name="submit">
+        </form>
+        </section><br>
+        <hr>
+
+        <!--Here are the links to the other pages-->
+        <a href="index.html">Homepage</a><br>
+        <a href="recs.html">Book Recommendations</a><br>
+        <a href="misc.html">Book Resources</a><br>
+
+    </main>
+</body>
+</html>
