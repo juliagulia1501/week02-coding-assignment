@@ -11,12 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Recommendations</title>
      <!--Here is the code to grab from the CSS style sheet.-->
-     <link rel="style sheet" href="style.css" />
+     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
     <!--Header for the page and another image to decorate.-->
-     <img src="https://images.unsplash.com/photo-1697029749544-ffa7f15f9dd0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhZGluZyUyMGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D" width="500" alt="Picture of book"><br>
+     <img id="bookcandle" src="https://images.unsplash.com/photo-1697029749544-ffa7f15f9dd0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhZGluZyUyMGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D"  alt="Picture of book"><br>
      <h1>Book Recommendations By Genre</h1>
   
      <!----MAIN------>
@@ -28,7 +28,7 @@
         </p>
 
         <!--Here is a table with book recs for different genres, including a universal HTML symbol.-->
-        <section>
+        <section id="recslist">
         <table>
             <tr>
                 <th>Sci-Fi</th>
@@ -70,28 +70,33 @@
         <hr>
 
         <!--Next is an area for the user to enter some information about themselves using a form and different inputs.-->
-        <section>
-        <h3>Book Information About You:</h3>
-        <img src="https://www.freelancerfaqs.com/wp-content/uploads/2022/03/fb-get-paid-to-read-books.jpg" width="800" alt="Picture of girl with book"><br>
-        <form>
-            1. What is your favorite book?<br>
-            <input type="text" name="favoriteBook" placeholder="Book Title"><br>
-            2. What is your favorite genre of fiction?<br>
-            <input type="radio" name="genre" value="Sci-Fi"> Sci-Fi<br>
-            <input type="radio" name="genre" value="Romance">Romance<br>
-            <input type="radio" name="genre" value="Thriller">Thriller<br>
-            <input type="radio" name="genre" value="Fantasy">Fantasy<br>
-            <input type="radio" name="genre" value="Horror">Horror<br>
-            <input type="radio" name="genre" value="Other">Other<br>
-            <input type="submit" name="submit">
-        </form>
+        <section >
+        <h2>Book Information About You:</h2>
+        <div class="bookinfo">
+            <form>
+                1. What is your favorite book?<br>
+                <input type="text" name="favoriteBook" placeholder="Book Title"><br><br>
+                2. What is your favorite genre of fiction?<br>
+                <input type="radio" name="genre" value="Sci-Fi"> Sci-Fi<br>
+                <input type="radio" name="genre" value="Romance">Romance<br>
+                <input type="radio" name="genre" value="Thriller">Thriller<br>
+                <input type="radio" name="genre" value="Fantasy">Fantasy<br>
+                <input type="radio" name="genre" value="Horror">Horror<br>
+                <input type="radio" name="genre" value="Other">Other<br>
+                <input type="submit" name="submit">
+            </form>
+            </div>
+        <img id="girlsmiling" src="https://www.freelancerfaqs.com/wp-content/uploads/2022/03/fb-get-paid-to-read-books.jpg" width="800" alt="Picture of girl with book"><br>
+        
         </section><br>
         <hr>
 
         <!--Here are the links to the other pages-->
-        <a href="index.html">Homepage</a><br>
-        <a href="recs.html">Book Recommendations</a><br>
-        <a href="misc.html">Book Resources</a><br>
+        <div id="alllinks">
+            <a class="firstlink" href="index.html">Homepage</a><br>
+            <a class="secondlink" href="recs.html">Book Recommendations</a><br>
+           <a class="thirdlink" href="misc.html">Book Resources</a><br>
+          </div>
 
     </main>
 </body>

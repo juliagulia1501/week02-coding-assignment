@@ -1,0 +1,155 @@
+/* This is my external CSS style sheet for my website. */
+
+/*Here are my element selectors for all pages.*/
+img{
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0, 0.5);
+}
+
+body{
+    background-color:#efdcc5;
+    color:rgb(18, 65, 31);
+    font-family: Helvetica;
+}
+
+h1{
+    font-family:cursive;
+    color:rgb(150, 117, 31);
+    text-align: center;
+}
+
+h2, h3{
+    font-family: serif;
+    color:rgb(115, 30, 94);
+}
+
+p{
+    text-align: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+th{
+    background-color: white;
+    color: rgb(52, 51, 51);
+}
+table,th,tr,td{
+    border: 1px solid;
+    border-color: white;
+}
+
+/* vvvvv   These are my class and id selectors  vvvvvv */
+
+/*Homepage selectors*/
+.websiteheader{
+    font-size: 35px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(52, 80, 53);
+    color: rgb(240, 204, 114);
+    border-radius: 10px;
+}
+
+#topimage, #bottomimage{
+    width:700px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bookbenefits, #happy{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(57, 17, 54);
+
+}
+
+.list{
+    font-size: 17px;
+    margin:3rem;
+    margin-top:2rem;
+    padding:2rem;
+    background-color: rgb(210, 194, 145) ;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0, 0.5);
+    border-radius: 3rem;
+    
+}
+
+
+
+/*bottom links selectors*/
+
+a.firstlink:hover, a.secondlink:hover, a.thirdlink:hover{
+    color:black;
+    font-size: 20px;
+}
+
+
+/* Book recommendations page and links page selectors*/
+
+#bookcandle, #librarygirl, #boy{
+    width:500px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+#recslist{
+   background-color: rgb(52, 51, 51);
+   color:white;
+   text-align:center;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+
+}
+
+.bookinfo{
+    background-color: rgb(138, 168, 139);
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0, 0.5);
+    border-radius: 2rem;
+    margin:3rem;
+    margin-top:2rem;
+    padding:2rem;
+    float:left;
+    
+}
+
+#girlsmiling{
+    width:500px;
+}
+
+#booklinks{
+    text-shadow: 1px 1px 2px rgb(57, 17, 54);
+    font-size: 40px;
+}
+
+.buybooks, .freebooks{
+    
+    box-shadow: 2px 2px 2px 4px rgba(0,0,0, 0.5);
+    margin:3rem;
+    margin-top:rem;
+    background-color: rgb(52, 80, 53);
+    border-radius: 6rem;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right:300px;
+    padding-top: 20px;
+    padding-bottom:50px;
+    color:#efdcc5;
+}
+
+#freeresources, #wheretobuy{
+    color:#faecbe;
+    text-shadow: 1px 1px 3px rgb(57, 17, 54);
+
+
+}
+
+a.barnes, a.target, a.walmart, a.thriftbooks, a.powells, a.amazon, a.libby, a.local, a.littlefree, a.freebooksy{
+    color:white;
+    text-shadow: 1px 1px 1px rgb(57, 17, 54);
+
+}
+

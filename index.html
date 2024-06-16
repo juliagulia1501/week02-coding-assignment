@@ -11,14 +11,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Lovers Homepage</title>
     <!--Here is the code to grab from the CSS style sheet.-->
-    <link rel="style sheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <!--Here is the header for the page. I used the biggest header for this h1-->
 
-    <h1>Welcome Readers!</h1> 
+    <h1 class="websiteheader" >Welcome Readers!</h1> 
     <!--I have added an image here-->
-    <img src="https://images.nightcafe.studio/jobs/rc7A5qiwjYeplBytFOQ8/rc7A5qiwjYeplBytFOQ8--1--dtg66.jpg?tr=w-1600,c-at_max" width="900" alt="Photo of library">
+    <img id="topimage" src="https://images.nightcafe.studio/jobs/rc7A5qiwjYeplBytFOQ8/rc7A5qiwjYeplBytFOQ8--1--dtg66.jpg?tr=w-1600,c-at_max" alt="Photo of library">
 
     <!----MAIN----->
     <main>
@@ -32,8 +32,8 @@
         <!--Description of benefits of reading and why everyone should read. I have added an unordered list here.
         It is inside a section element for organization.I also added <br> to make it look better.-->
         <section>  
-            <h2>Benefits of Reading and why you should pick up a book:</h2>
-
+            <h2 id="bookbenefits">Benefits of Reading and why you should pick up a book:</h2>
+            <div class="list">
             <ul>
                 <li>Reading improves your critical thinking skills, without even knowing it,
                  our brains provide different perspectives and solutions to the characters, situations 
@@ -53,15 +53,18 @@
                 to feel seen and understood when this may be something missing in our own lives.
                 </li>
                 </ul>
+            </div>
         </section> 
 
-    <img src="https://images7.alphacoders.com/886/thumb-1920-886684.jpg" width="800" alt="Photo of girl reading">
+    <img id="bottomimage" src="https://images7.alphacoders.com/886/thumb-1920-886684.jpg"  alt="Photo of girl reading">
     <hr>
     
     <!--Here are the links to the other pages-->
-     <a href="index.html">Homepage</a><br>
-     <a href="recs.html">Book Recommendations</a><br>
-    <a href="misc.html">Book Resources</a><br>
+    <div id="alllinks">
+     <a class="firstlink" href="index.html">Homepage</a><br>
+     <a class="secondlink" href="recs.html">Book Recommendations</a><br>
+    <a class="thirdlink" href="misc.html">Book Resources</a><br>
+   </div>
    
     </main>
        
